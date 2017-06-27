@@ -1,2 +1,0 @@
-# JoGusTor.github.io
-Blog

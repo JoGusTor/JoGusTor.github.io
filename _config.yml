@@ -14,16 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Blog Personal
-email: 
+email: ""
 description: > # this means to ignore newlines until "baseurl:"
-Soy estudiante de ingeniería en sistemas, estoy en el último semestre de la carrera.
-A mi parecer el contribuir con un proyecto a las ideas nuevas es la satisfacción 
-mas grande a la hora de desarrollar software. Me gustan los retos y temas como 
-geolocalización y gráficos por computadoras. Mis hobbies son (en mayor parte), 
-fotografía y guitarra.
+    Estudiante de ingenieria en sistemas estudiando el ultimo semestre de la carrera.
+    Apasionado por aprender nuevas tecnologias y partidario de los metodos agiles como
+    SCRUM
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+#twitter_username: ""
 github_username:  JoGusTor
 
 # Build settings

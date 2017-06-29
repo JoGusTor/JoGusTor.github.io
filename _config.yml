@@ -1,5 +1,5 @@
-title: Slate theme
-description: Slate is a theme for GitHub Pages.
-show_downloads: true
+title: Mi blog Personal
+description: Soy Gustavo, estudiante de ingeniería en sistemas computacionales, apasionado por la tecnología.
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate

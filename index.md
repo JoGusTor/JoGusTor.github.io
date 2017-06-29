@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+**Bienvenido/a.**
 
-[Link to another page](another-page).
+[Primer Blog: Información de proyecto Lindenmayer](another-page).
 

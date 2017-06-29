@@ -4,5 +4,7 @@ layout: default
 
 **Bienvenido/a.**
 
-[Primer Blog: Información de proyecto Lindenmayer](another-page).
+[Primer Post: Información de proyecto Lindenmayer](another-page).
+![Arbol generado con Lindenmayer](Post1.png)
+* *
 

@@ -11,6 +11,11 @@ al tema.
 
 ### L-Systems o sistemas lindenmayer.
 
+Los sistemas Lindenmayer se basan en las **gramáticas**, tema que aquí
+debería de ser de nuestro interés, ya que vamos a necesitar comprenderlo
+para poder entrar de lleno al algoritmo utilizado para generar gráficos.
+
+	
 
 
 [Volver al inicio](./)

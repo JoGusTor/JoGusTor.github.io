@@ -9,19 +9,29 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-    <title>Jogustor Blog</title>
+    <title> Blog</title>
   </head>
 
   <body>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
+      
+  <div id="project_title">"Construye, crea, inova"</div>
+  
+  
         <header class="inner">
-          <a id="forkme_banner" href="{{ site.github.owner_url }}">JoGusTor</a>
-          <a id="libros" href="{{ site.github.owner_url }}">Libros</a>
 
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+
+        <div class="separator"></div>
+
+          <a id="forkme_banner" href="{{ site.github.owner_url }}">JoGusTor</a>
+          <a id="inicio" href="{{ site.home }}">Inicio</a>
+          <a id="libros" href="{{ site.books }}">Libros</a>
+          <a id="acerca" href="{{ site.acerca }}">Acerca de</a>
+
+          
+          
 
           {% if site.show_downloads %}
             <section id="downloads">
@@ -36,7 +46,9 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         {{ content }}
+        
       </section>
+
     </div>
 
     <!-- FOOTER  -->

@@ -257,7 +257,8 @@ Full-Width Styles
 *******************************************************************************/
 
 .outer {
-  width: 100%;
+  width: 100% ;
+  
 }
 
 .inner {
@@ -267,38 +268,154 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-#forkme_banner {
+
+
+#inicio {
   display: block;
   position: absolute;
+  margin: 0px;
   top:0;
-  right: 20px;
+  left: 0px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  background: url('../images/home.png') #0090ff no-repeat 95% 50%;
   font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  
+      background: #212121;
+  background: -moz-linear-gradient(top, #373737, #212121);
+  background: -webkit-linear-gradient(top, #373737, #212121);
+  background: -ms-linear-gradient(top, #373737, #212121);
+  background: -o-linear-gradient(top, #373737, #212121);
+  background: linear-gradient(top, #373737, #212121);
+  box-shadow: 0px 0px 0px rgba(0,0,0,.10);
+  
+
+  border-radius: 0px;
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  /* ...and now for the proper property */
+  transition:.2s;
+  text-decoration: none;
+   
 }
+
+#inicio:hover {
+  background: url('../images/home.png') #708090 no-repeat 94% 30%;
+  border-radius: 20px;
+  }
+
 
 #libros {
   display: block;
   position: absolute;
   top:0;
-  right: 150px;
+  left: 97px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
   background: url('../images/book.png') #0090ff no-repeat 95% 50%;
+  
   font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px; 
+
+  
+      background: #212121;
+  background: -moz-linear-gradient(top, #373737, #212121);
+  background: -webkit-linear-gradient(top, #373737, #212121);
+  background: -ms-linear-gradient(top, #373737, #212121);
+  background: -o-linear-gradient(top, #373737, #212121);
+  background: linear-gradient(top, #373737, #212121);
+   border-radius: 0px;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  /* ...and now for the proper property */
+  transition:.3s;
+  text-decoration: none;
+}
+
+
+#libros:hover {
+  background: url('../images/book.png') #708090 no-repeat 94% 30%;
+  border-radius: 20px;
+  }
+
+
+
+
+#forkme_banner {
+  display: block;
+  position: absolute;
+  top:0;
+  
+  right: 20px;
+  z-index: 10;
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+
+      background: #212121;
+  background: -moz-linear-gradient(top, #373737, #212121);
+  background: -webkit-linear-gradient(top, #373737, #212121);
+  background: -ms-linear-gradient(top, #373737, #212121);
+  background: -o-linear-gradient(top, #373737, #212121);
+  background: linear-gradient(top, #373737, #212121);
+  font-weight: 700;
+  border-radius: 0px;
+  -o-transition:.1s;
+  -ms-transition:.1s;
+  -moz-transition:.1s;
+  -webkit-transition:.1s;
+  /* ...and now for the proper property */
+  transition:.1s;
+  text-decoration: none;
+}
+
+#forkme_banner:hover {
+background: url('../images/blacktocat.png') #708090 no-repeat 94% 30%;
+border-radius: 20px;
+}
+
+#acerca {
+  display: block;
+  position: absolute;
+  top:0;
+  
+  left: 200px;
+  z-index: 10;
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  background: url('../images/mark.png') #0090ff no-repeat 95% 50%;
+
+      background: #212121;
+  background: -moz-linear-gradient(top, #373737, #212121);
+  background: -webkit-linear-gradient(top, #373737, #212121);
+  background: -ms-linear-gradient(top, #373737, #212121);
+  background: -o-linear-gradient(top, #373737, #212121);
+  background: linear-gradient(top, #373737, #212121);
+  font-weight: 700;
+  border-radius: 0px;
+   -o-transition:.1s;
+  -ms-transition:.1s;
+  -moz-transition:.1s;
+  -webkit-transition:.1s;
+  /* ...and now for the proper property */
+  transition:.1s;
+  text-decoration: none;
+}
+
+#acerca:hover {
+background: url('../images/mark.png') #708090 no-repeat 94% 30%;
+border-radius: 20px;
+
+
 }
 
 #header_wrap {
-  background: #212121;
+      background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
   background: -ms-linear-gradient(top, #373737, #212121);
@@ -307,15 +424,14 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 15px 70px 30px 10px;
 }
 
 #project_title {
   margin: 0;
   color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+  text-align: center;
+  font-size: 15px;
 }
 
 #project_tagline {
@@ -367,7 +483,7 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #f2f2f2;
-  border-top: 1px solid #111;
+  
   border-bottom: 1px solid #111;
 }
 

@@ -2,4 +2,7 @@ title: Bienvenido/a.
 description: Soy Gustavo, estudiante de ingeniería en sistemas computacionales, apasionado por la tecnología.
 show_downloads: false
 google_analytics:
+books: "/libros"
+home: "./"
+acerca: "/acerca"
 theme: jekyll-theme-slate

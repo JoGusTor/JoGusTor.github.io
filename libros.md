@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ---
 
 ## [](#header-2)Pagina de libros

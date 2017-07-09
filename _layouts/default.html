@@ -1,68 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    
-
-    <title> Blog</title>
-  </head>
-
+{% include head.html %}
   <body>
-    <!-- NAVIGATION  -->
-  <nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="./index.html">JoGusTor</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="./index.html">INICIO / HOME</a></li>
-        <li><a href="./libros.html">LIBROS / BOOKS</a></li>
-        <li><a href="./acerca.html">ACERCA / ABOUT</a></li>
-      </ul>
-    </div>
-  </div>
-  </nav>
+    {% include header.html %}    
+    
     <!-- MAIN CONTENT -->
     <div class="container">
-      <section id="main_content" class="inner">
-        {{ content }}
-        
+      <section class=" container-fluid text-center">
+        <h1><u> Bienvenido/ Welcome</u></h1>
       </section>
-
+      <section class="jumbotron" style="color: #22bbcc ">
+      {% for repository in site.github.public_repositories %}
+        * [{{ repository.name }}]({{ repository.html_url }})
+      {% endfor %}
+      </section>
     </div>
 
-
-    <!-- FOOTER  -->
-    <div class="panel-footer">
-      <footer class="inner">
-       
-        <p>This page has been published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
-  
-
+    {% include footer.html %}    
   </body>
 </html>

@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: post
 ---
 
 ## Reseña del libro "La princesa de hielo".
-
+* * * *
 Ya se que van a decir, ¿Pero que no trata de puros proyectos tu blog?.
 Bueno... si y no. Yo se que la pagina esta hecha un desastre, pero pienso agregar
 mas cosas en un futuro no muy lejano, he estado ocupado, pero prometo hacerlo.

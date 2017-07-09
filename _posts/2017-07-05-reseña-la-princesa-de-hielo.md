@@ -24,4 +24,4 @@ detectivescas mezcladas con una buena dosis de intriga).
 
 
 
-[Volver al inicio](./)
+[Volver al inicio](/)

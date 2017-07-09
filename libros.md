@@ -1,11 +1,14 @@
 ---
 layout: post
+
 ---
 
-## [](#header-2)Pagina de libros
+## [](#header-2)Libros 
+* * *
 
-Pagina en construcción, mientras puedes darte una vuelta por mis posts.
+Aqui veras mis libros, esta seccion se encuentra en construccion por el momento,
+mientras date una vuelta por mis posts si gustas.
 
-[Volver a inicio](./)
+[Volver a inicio](/)
 
 

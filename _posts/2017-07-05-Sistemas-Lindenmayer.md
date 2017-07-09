@@ -1,13 +1,14 @@
 ---
-layout: default
+layout: post
+permalink: 2017-07-05-Sistemas-Lindenmayer
 ---
 
 ## Proyecto utilizando L-Systems / Project using L-Systems
-
+* * *
 Querido lector, bienvenido a mi primer post y a este mi blog personal. 
 No dare una larga introducción acerca de mi y del proposito de lo que 
 hago, porque se que lo que buscas no es eso. Por tanto, entremos de lleno 
-al tema.
+al tema. 
 
 ### L-Systems o sistemas lindenmayer.
 
@@ -16,4 +17,4 @@ debería de ser de nuestro interés, ya que vamos a necesitar comprenderlo
 para poder entrar de lleno al algoritmo utilizado para generar gráficos.
 
 
-[Volver al inicio](./)
+[Volver al inicio](/)

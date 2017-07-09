@@ -1,4 +1,15 @@
 ---
 ---
 
-@import "jekyll-theme-slate";
+@import "bootstrap";
+
+.navbar {
+	padding-top: 15px;
+	border-radius: 0;
+	margin-bottom: 0;
+	letter-spacing: 3px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}

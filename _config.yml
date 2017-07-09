@@ -5,4 +5,4 @@ google_analytics:
 books: "/libros"
 home: "./"
 acerca: "/acerca"
-theme: jekyll-theme-slate
+

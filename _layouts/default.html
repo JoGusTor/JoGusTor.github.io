@@ -10,9 +10,7 @@
         <h1><u> Bienvenido/ Welcome</u></h1>
       </section>
       <section class="jumbotron" style="color: #22bbcc ">
-      {% for repository in site.github.public_repositories %}
-        * [{{ repository.name }}]({{ repository.html_url }})
-      {% endfor %}
+      <a href="{{site.github.owner_url}}">Github</a
       </section>
     </div>
 

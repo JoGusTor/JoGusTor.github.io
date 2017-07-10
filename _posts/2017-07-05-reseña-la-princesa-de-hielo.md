@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 ---
 
 ## Reseña del libro "La princesa de hielo".

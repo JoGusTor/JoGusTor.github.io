@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: acerca
+comments: true
 ---
 
 ## [](#header-2)Acerca de 

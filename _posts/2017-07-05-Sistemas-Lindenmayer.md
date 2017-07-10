@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: 2017-07-05-Sistemas-Lindenmayer
+comments: true
 ---
 
 ## Proyecto utilizando L-Systems / Project using L-Systems
